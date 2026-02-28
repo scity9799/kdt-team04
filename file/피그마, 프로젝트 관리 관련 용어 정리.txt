@@ -1,0 +1,170 @@
+피그마 -> 프로젝트 관리 관련 용어 정리
+
+1. 피그마(Figma)
+	UI/UX 에서 자주 사용하는 프로그램
+	전체 디자인과 이미지 파일, 폰트, 간격, 사용자 인터랙션까지 거의 모든 것을 피그마 안에서
+	해결가능하다
+	
+1) 피그마 구성
+	프로젝트 생성 : 피그마 파일(draft)을 하나의 프로젝트라고 부른다
+
+- 피그마 레이아웃
+	왼쪽 사이드바	컴포넌트, 레이어, 페이지 등을 구성
+			전체 레이아웃을 테스트할 때 ctrl + \
+			왼쪽 사이드바 ctrl + shift + \
+	오른쪽 사이드바	인터페이스를 구성
+	중앙 대지보드	작업 영역을 구성
+			중앙에서 이동 시 스페이스를 누른 상태에서 드래그, 화면 이동가능
+			ctrl + [+],[-]키를 사용하여 뷰 크기를 변경할 수 있다
+	도구창		피그마에서 사용하는 도구들을 담아 놓은 창
+
+- 프레임 만들 때 단축키 F
+	하나의 작업 영역을 프레임이라고한다
+	작업중인 프레임 하위그룹 닫기 alt + l
+	작업중인 프레임 찾아가기 [shift + 2] + [click]
+	
+- shift + 드래그 	내각의 비율이 모두 같은 정방향 비율
+- alt + 드래그 	마우스 커서를 찍은 곳을 기준으로 만들어진다
+- 프레임 가장자리에서 화살표가 생긴다
+	alt + 현재자리를 기준으로 작아지고 커진다
+	shift + 비율을 유지하면서 커진다
+- alt + 드래그	복사 가능
+- ctrl + D	방금 전 행동을 반복한다
+
++) 단축키 정리
+1. File & Properties
+Ctrl+Shift+E	출력(저장) Export
+Ctrl+Alt+S	히스토리 저장 Save to Version History
+Ctrl+Shift+K	이미지 삽입 Place Image
+
+2. Edit
+Ctrl+C	복사 Copy
+Ctrl+X	잘라내기 Cut
+Ctrl+V	붙여넣기 Paste
+Ctrl+Shift+V	선택 위에 붙여넣기 Paste Over Selection
+Alt+drag	중심점 중심으로 사이즈 조절 Resize from Center
+Alt+drag	선택 복사 Duplicate Selection
+Ctrl+Alt+C	속성 복사 Copy Properties
+Ctrl+Alt+V	속성 붙여넣기 Paste Properties
+
+3. Select
+Ctrl+right-click	레이어 선택 Select Layer Menu
+Ctrl+click		직접 선택 Deep Select
+
+4. View
+    Ctrl ++ / Z+Click / Ctrl+wheel	줌인 Zoom In
+    Ctrl +- / Alt+Z+Click / Ctrl+wheel	줌아웃 Zoom Out
+    Shift+1	화면에 맞추기 Zoom to Fit
+    Shift+0	100%로 맞추기 Zoom to 100%
+    Shift+R	눈금자 Rulers
+    Ctrl+Shift+3	외곽선으로 보기 Show Outlines
+    Ctrl+Alt+Y	픽셀 모드 프리뷰 Pixel Preview
+    
+5. Arrange
+Shift+A		오토레이아웃 만들기 Add Auto Layout
+Alt+Shift+A	오토레이아웃 해제 Remove Auto Layout
+Ctrl + ]	앞으로 가져오기 Bring Forward
+Ctrl + [	뒤로 보내기 Send Backward
+Ctrl+Shift+]	맨 앞으로 가져오기 Bring to Front
+Ctrl+Shift+[	맨 뒤로 보내기 Send to Back
+
+6. Tools
+V	이동 Move
+C	코멘트 추가 또는 보기 Add/Show Comments
+P	펜툴 Pen
+Shift+P	연필 툴 Pencil
+R	사각형 그리기 Rectangle
+O	원 그리기 Ellipse
+L	선 그리기 Line
+F	프레임 생성 Frame
+S	슬라이스 Slice
+I	스포이드 툴Pick Color
+
+7. Text
+T		텍스트 Text
+Ctrl+Shift+V	스타일에 맞춰 붙여넣기 Paste and Match Style
+Ctrl+B		볼드 Bold
+Ctrl+I		이탤릭 Italic
+Ctrl+U		밑줄 Underline
+
+8. Object
+Ctrl+G		그룹 Group Selection
+Ctrl+Shift+G	그룹 해제 Ungroup Selection
+Ctrl+Shift+H	숨기기/나타내기 Show/Hide Selection
+Ctrl+Shift+L	잠금/잠금해제 Lock/Unlock Selection
+Ctrl+Alt+Shift+L	전체 잠금 해제 Unlock All Object
+Ctrl+E		병합 Flatten Selection
+Ctrl+Shift+O	윤곽선으로 변경 Outline Stroke
+Alt+double+click 이미지 자르기 Crop Image
+
+9. Components
+Ctrl+Alt+K	컴포넌트 만들기 Create Component
+Ctrl+Alt+B	인스턴스 분리하기 Detach Instance
+
+10. Misc
+Ctrl+/	검색 Search
+Ctrl+Shift+/	단축키 보기 Keyboard Shortcuts
+-----------------------------------------------------------------------
+11. 마우스 사용 기능
+    [alt] 여백 확인
+    
+    [drag] + [alt]	복사
+    [ctrl] + [D] 	방금 전 행동 복사
+    - 복사 이후 사용하면 같은 범위로 연달아 복사 할 수 있다.	
+    
+    [drag] + [shift]		모든 행동 수직 이동 (정비율)
+    [drag] + [shift] + [alt]
+
+------------------------------------------------------------------
+
++) 애자일(Agile) 및 스크럽(Scrum) 관련 용어
+- Sprint(스프린트)
+	일정 기간동안 특정 작업을 수행하는 반복 주기
+
+- Backlog(백로그)
+	프로젝트에서 수행해야할 작업 목록
+
+- Scrum Master(스크럼 마스터)
+	스크럼 팀의 진행을 돕고 장애요소를 제거하는 역할
+
+- User Story(사용자 스토리)
+	사용자 관점에서 작성된 요구사항
+
+- Retrospective(회고)
+	프로젝트 수행 후 개선점을 논의하는 회의
+
++) 협업 및 커뮤니케이션 관련 용어
+- Kick-off Meeting(킥오프 미팅)
+	프로젝트 시작 시 주요 이해관계자들이 참석하는 첫 공식 회의
+	- 프로젝트 범위, 목표 공유, 팀원 역할
+
+- Daily Stand-up(일일 스탠드업 미팅)
+	프로젝트 팀이 매일 진행상황을 공유하는 간단한 회의
+	- 어제 진행한 작업, 오늘 계획한 작업, 문제점, 이슈사항 공유
+
+- RAID Log(RAID 로그)
+	리스트(Risk), 가정(Assumption), 이슈(Issue), 종속성(Dependency)를 관리하는 문서
+	- 프로젝트 문서에 주요 리스크와 이슈 기록
+
+- Escalation(에스컬레이션)
+	문제나 이슈를 더 높은 관리레벨로 보고하거나 도움을 요청하는 절차
+	- 일정 문제를 해결하기 위해 프로젝트 매니저가 임원에게 보고 등
+
++) 일정 및 작업 관리 관련 용어
+- WBS(Work Breakdown Structure)
+	프로젝트 작업을 작은 단위로 나눈 구조
+	프로젝트의 전반적인 작업 범위를 시각적으로 표현
+	
+- Gantt Chart(간트 차트)
+	프로젝트 일정과 작업 일정을 시각적으로 표시하는 도구
+	각 작업의 시작일과 종료일을 한눈에 볼 수 있음
+
+- Milestone(마일스톤)
+	프로젝트 내 중요한 시점 또는 이벤트
+	목표 시점을 확인
+
+- Critical Path(주요 경로)
+	프로젝트 일정에 직접적인 영향을 미치는 작업들의 연속
+	
+- Baseline(베이스 라인)
+	승인된 일정, 예산, 범위 등 프로젝트의 기준선
